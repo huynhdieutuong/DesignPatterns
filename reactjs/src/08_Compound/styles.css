@@ -1,0 +1,58 @@
+.image-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.image-item {
+  width: 350px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.flyout-btn {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(53, 53, 53, 0.836);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+}
+
+.css-i6dzq1 {
+  color: white;
+}
+
+.flyout-list {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  z-index: 2;
+  background-color: rgb(53, 53, 53);
+  padding: 0;
+}
+
+.flyout-item {
+  list-style-type: none;
+  text-align: left;
+  color: white;
+  line-height: 24px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.flyout-item:hover {
+  background-color: rgb(32, 32, 32);
+}
