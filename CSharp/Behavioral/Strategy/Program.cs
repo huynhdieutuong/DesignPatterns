@@ -1,5 +1,5 @@
-﻿using Strategy;
-using Strategy.Behaviors;
+﻿using Strategy.Behaviors;
+using Strategy.Ducks;
 
 Duck mallard = new MallardDuck();
 mallard.Display();

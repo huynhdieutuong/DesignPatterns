@@ -1,6 +1,6 @@
 ﻿using Strategy.Behaviors;
 
-namespace Strategy;
+namespace Strategy.Ducks;
 
 internal class MallardDuck : Duck
 {

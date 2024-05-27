@@ -1,6 +1,10 @@
 # DesignPatterns
- ## Strategy
- Defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+ ## Creational
+ ## Structural
+ ## Behavioral
+- **Strategy** is a behavioral design pattern that lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable.
+![Strategy UML](./CSharp/Behavioral/Strategy/UML.png)
+![Duck diagram](./CSharp/Behavioral/Strategy/diagram.png)
 
 # SOLID
  ## Single Responsibility

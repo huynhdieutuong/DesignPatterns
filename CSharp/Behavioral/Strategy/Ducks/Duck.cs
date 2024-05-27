@@ -1,7 +1,7 @@
 ﻿using Strategy.Behaviors;
 using Strategy.Behaviors.Interfaces;
 
-namespace Strategy;
+namespace Strategy.Ducks;
 
 internal abstract class Duck
 {

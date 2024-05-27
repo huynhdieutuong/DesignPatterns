@@ -1,4 +1,4 @@
-﻿namespace Strategy;
+﻿namespace Strategy.Ducks;
 
 internal class RubberDuck : Duck
 {
