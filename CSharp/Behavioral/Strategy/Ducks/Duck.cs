@@ -5,8 +5,8 @@ namespace Strategy.Ducks;
 
 internal abstract class Duck
 {
-    protected IFlyBehavior FlyBehavior { get; set; } = new FlyNoWay();
-    protected IQuackBehavior QuackBehavior { get; set; } = new MuteQuack();
+    protected IFlyBehavior FlyBehavior = new FlyNoWay();
+    protected IQuackBehavior QuackBehavior = new MuteQuack();
 
     internal abstract void Display();
 
