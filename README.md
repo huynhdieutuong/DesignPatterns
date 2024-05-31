@@ -4,6 +4,10 @@
 ![Factory Method UML](./CSharp/Creational/FactoryMethod/UML.png)
 ![Pizza diagram](./CSharp/Creational/FactoryMethod/diagram.png)
 
+- **Abstract factory** - provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+![Factory Method UML](./CSharp/Creational/AbstractFactory/UML.png)
+![Pizza diagram](./CSharp/Creational/AbstractFactory/diagram.png)
+
  ## Structural
 - **Decorator** - attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
 ![Decorator UML](./CSharp/Structural/Decorator/UML.png)
@@ -22,11 +26,13 @@
  ## Single Responsibility
  - Decorator
  - Factory Method
+ - Abstract Factory
  ## Open for Extension / Closed for Modification
  - Strategy
  - Observer
  - Decorator
  - Factory Method
+ - Abstract Factory
  ## Liskov Substitution
  ## Interface Segregation
  ## Dependency Inversion
