@@ -1,5 +1,9 @@
 # DesignPatterns
  ## Creational
+- **Factory method** - defines an interface for creating an object, but lets subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
+![Factory Method UML](./CSharp/Creational/FactoryMethod/UML.png)
+![Pizza diagram](./CSharp/Creational/FactoryMethod/diagram.png)
+
  ## Structural
 - **Decorator** - attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
 ![Decorator UML](./CSharp/Structural/Decorator/UML.png)
@@ -17,10 +21,12 @@
 # SOLID
  ## Single Responsibility
  - Decorator
+ - Factory Method
  ## Open for Extension / Closed for Modification
  - Strategy
  - Observer
  - Decorator
+ - Factory Method
  ## Liskov Substitution
  ## Interface Segregation
  ## Dependency Inversion
@@ -31,3 +37,4 @@
 - Program to interfaces, not implementations
 - Strive for loosely coupled designs between objects that interact
 - Classes should be open for extension but closed for modification
+- Depend on abstractions. Do not depend on concrete classes
