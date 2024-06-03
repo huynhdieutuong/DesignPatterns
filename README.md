@@ -22,6 +22,17 @@ Object adateprs and class adapters (composition vs ingeritance). Here is the Obj
 ![Adapter UML](./CSharp/Structural/Adapter/UML.png)
 ![TurkeyAdapter diagram](./CSharp/Structural/Adapter/diagram.png)
 
+### Facade
+**Facade** - provide a unified interface to a set of interfaces in a subsytem. Facade defines a higher-level interface that makes the subsystem easier to use.
+Object adateprs and class adapters (composition vs ingeritance). Here is the Object Adapter UML:
+![Facade UML](./CSharp/Structural/Facade/UML.png)
+![HomeTheater diagram](./CSharp/Structural/Facade/diagram.png)
+
+**The Principle of Least Knowledge** talk only to your immediate friends.
+![Image](./CSharp/Structural/Facade/image.png)
+![Image1](./CSharp/Structural/Facade/image1.png)
+![Image2](./CSharp/Structural/Facade/image2.png)
+
 ## 3. Behavioral
 ### Strategy
 **Strategy** - defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
@@ -46,6 +57,7 @@ Object adateprs and class adapters (composition vs ingeritance). Here is the Obj
  - Factory Method
  - Abstract Factory
  - Command
+ - Adapter
  ## 2. Open for Extension / Closed for Modification
  - Strategy
  - Observer
@@ -53,6 +65,7 @@ Object adateprs and class adapters (composition vs ingeritance). Here is the Obj
  - Factory Method
  - Abstract Factory
  - Command
+ - Adapter
  ## 3. Liskov Substitution
  ## 4. Interface Segregation
  ## 5. Dependency Inversion
@@ -64,3 +77,4 @@ Object adateprs and class adapters (composition vs ingeritance). Here is the Obj
 - Strive for loosely coupled designs between objects that interact
 - Classes should be open for extension but closed for modification
 - Depend on abstractions. Do not depend on concrete classes
+- Only talk to your friends
