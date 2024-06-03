@@ -16,19 +16,25 @@
 ![Decorator UML](./CSharp/Structural/Decorator/UML.png)
 ![Duck diagram](./CSharp/Structural/Decorator/diagram.png)
 
+### Adapter
+**Adapter** - converts the interface of a class into another interface the client expect. Adapter lets classes work together that coun't otherwise because of incompatible interfaces.
+Object adateprs and class adapters (composition vs ingeritance). Here is the Object Adapter UML:
+![Adapter UML](./CSharp/Structural/Adapter/UML.png)
+![TurkeyAdapter diagram](./CSharp/Structural/Adapter/diagram.png)
+
 ## 3. Behavioral
 ### Strategy
-- **Strategy** - defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+**Strategy** - defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
 ![Strategy UML](./CSharp/Behavioral/Strategy/UML.png)
 ![Duck diagram](./CSharp/Behavioral/Strategy/diagram.png)
 
 ### Observer
-- **Observer** - defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+**Observer** - defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 ![Observer UML](./CSharp/Behavioral/Observer/UML2.png)
 ![WeatherData diagram](./CSharp/Behavioral/Observer/diagram.png)
 
 ### Command
-- **Command** - encapsulates a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
+**Command** - encapsulates a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
 ![Command UML](./CSharp/Behavioral/Command/UML.png)
 ![Remote diagram](./CSharp/Behavioral/Command/diagram.png)
 ![Remote image](./CSharp/Behavioral/Command/image1.png)
