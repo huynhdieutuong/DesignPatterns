@@ -51,6 +51,11 @@ Object adateprs and class adapters (composition vs ingeritance). Here is the Obj
 ![Remote image](./CSharp/Behavioral/Command/image1.png)
 ![Remote image](./CSharp/Behavioral/Command/image2.png)
 
+### Template Method
+**Template method** - defines the skeleton of an algorithm in a method, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
+![Template Method UML](./CSharp/Behavioral/TemplateMethod/UML.png)
+![CaffeineBeverage diagram](./CSharp/Behavioral/TemplateMethod/diagram.png)
+
 # II. SOLID
  ## 1. Single Responsibility
  - Decorator
@@ -77,4 +82,5 @@ Object adateprs and class adapters (composition vs ingeritance). Here is the Obj
 - Strive for loosely coupled designs between objects that interact
 - Classes should be open for extension but closed for modification
 - Depend on abstractions. Do not depend on concrete classes
-- Only talk to your friends
+- Only talk to your friends (The Principle of Least Knowledge)
+- Don't call us, we'll call you (Hollywood Principle)
