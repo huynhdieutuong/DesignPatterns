@@ -56,6 +56,11 @@ Object adateprs and class adapters (composition vs ingeritance). Here is the Obj
 ![Template Method UML](./CSharp/Behavioral/TemplateMethod/UML.png)
 ![CaffeineBeverage diagram](./CSharp/Behavioral/TemplateMethod/diagram.png)
 
+### Iterator
+**Iterator** - provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+![Iterator UML](./CSharp/Behavioral/Iterator/UML.png)
+![Menus diagram](./CSharp/Behavioral/Iterator/diagram1.png)
+
 # II. SOLID
  ## 1. Single Responsibility
  - Decorator
@@ -84,3 +89,4 @@ Object adateprs and class adapters (composition vs ingeritance). Here is the Obj
 - Depend on abstractions. Do not depend on concrete classes
 - Only talk to your friends (The Principle of Least Knowledge)
 - Don't call us, we'll call you (Hollywood Principle)
+- A class should have only one reason to change
