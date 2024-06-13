@@ -33,6 +33,11 @@ Object adateprs and class adapters (composition vs ingeritance). Here is the Obj
 ![Image1](./CSharp/Structural/Facade/image1.png)
 ![Image2](./CSharp/Structural/Facade/image2.png)
 
+### Composite
+**Composite** - compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
+![Composite UML](./CSharp/Structural/Composite/UML.png)
+![Menus diagram](./CSharp/Structural/Composite/diagram.png)
+
 ## 3. Behavioral
 ### Strategy
 **Strategy** - defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
