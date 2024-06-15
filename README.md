@@ -44,6 +44,11 @@ Object adateprs and class adapters (composition vs ingeritance). Here is the Obj
 ![Strategy UML](./CSharp/Behavioral/Strategy/UML.png)
 ![Duck diagram](./CSharp/Behavioral/Strategy/diagram.png)
 
+### State
+**State** - allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
+![State UML](./CSharp/Behavioral/State/UML.png)
+![Gumball Machine diagram](./CSharp/Behavioral/State/diagram.png)
+
 ### Observer
 **Observer** - defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 ![Observer UML](./CSharp/Behavioral/Observer/UML2.png)
@@ -73,6 +78,7 @@ Object adateprs and class adapters (composition vs ingeritance). Here is the Obj
  - Abstract Factory
  - Command
  - Adapter
+ - State
  ## 2. Open for Extension / Closed for Modification
  - Strategy
  - Observer
@@ -81,6 +87,7 @@ Object adateprs and class adapters (composition vs ingeritance). Here is the Obj
  - Abstract Factory
  - Command
  - Adapter
+ - State
  ## 3. Liskov Substitution
  ## 4. Interface Segregation
  ## 5. Dependency Inversion
